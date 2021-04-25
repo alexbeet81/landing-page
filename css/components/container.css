@@ -1,0 +1,61 @@
+.banner-container {
+  width: 800px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 0px 0px 0px;
+
+  --text-color: #292929;
+}
+
+.banner-container h1 {
+  color: #fed45b;
+  font-size: 124px;
+  margin: 0;
+}
+
+.banner-container p {
+  color: white;
+  font-size: 34px;
+  margin: 0px 0px 50px 0px;
+  position: relative;
+}
+
+.banner-container a {
+  align-self: center;
+  position: absolute;
+  top: 260px;
+}
+
+
+/*BODY*/
+.page-container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  margin: 0 0 30px 0;
+}
+
+.body-container {
+  width: 800px;
+  margin: 100px;
+  background-color: white;
+  margin: 0;
+}
+
+.body-container h2 {
+  margin: 16px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.card-flex-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+h2 {
+  color: #888888;
+}
